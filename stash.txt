@@ -1,0 +1,6 @@
+Hi, How are you
+
+<<<<<<< HEAD
+Hi , I am fine
+
+
