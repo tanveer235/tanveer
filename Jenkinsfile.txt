@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    tools{
+        maven'maven'
+    }
+    stages {
+        stage(test) {
+            steps {
+                echo "stepe-1"
+               
+            }
+        }
+        stage(build) {
+            steps {
+                echo "Deploy"
+              
+            }
+        }
+    }
+}
